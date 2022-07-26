@@ -1,0 +1,71 @@
+//*!Colors */
+
+$primary: #F0F4F9;
+$secondary: #014D69;
+$third: #F3AE5F;
+$quant: #0B87BA;
+$five: #D38F5E;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: $secondary;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+//* Header */
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2.5%;
+}
+
+//*? NavBar */ 
+
+li, a {
+  font-weight: 500;
+  font-size: 16px;
+  color: $primary;
+  text-decoration: none;
+}
+
+//*? Hero */
+
+.hero {
+  background: url("../public/hero.jpg");
+  width: 100%;
+  height: 90.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; 
+  .titleHero {
+    background: none;
+    margin: 10rem auto;
+    color: $primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      background: none;
+      font-size: 8vh;
+    }
+    p {
+      background: none;
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+

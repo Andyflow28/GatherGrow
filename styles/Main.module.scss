@@ -1,0 +1,29 @@
+//*!Colors */
+
+$primary: #F0F4F9;
+$secondary: #014D69;
+$third: #F3AE5F;
+$quant: #0B87BA;
+$five: #D38F5E;
+
+//*? Section */
+
+.image {
+    background: url("../public/AJFG.jpg");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: none;
+    border-radius: 100%;
+}
+
+.react {
+    background: none;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

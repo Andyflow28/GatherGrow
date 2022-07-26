@@ -1,0 +1,58 @@
+$primary: #F0F4F9;
+$secondary: #014D69;
+$third: #F3AE5F;
+$quant: #0B87BA;
+$five: #D38F5E;
+
+//*? NavBar */ 
+
+.logo { 
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+nav.nav {
+   
+    ul.tabs {
+        list-style: none;
+        li {
+            display: inline-block;
+            padding: 0px 20px;
+            a {
+                transition: all 0.3s ease 0s;
+            }
+        }
+    }
+    
+}
+
+a.a:hover {
+    color: $secondary;
+    padding: 10px 20px;
+    background-color: $primary;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 17px;
+    color: $third;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: $secondary;
+    border-radius: 5px;
+    border: 3px solid $third;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
+}
+
+.button:hover {
+    background-color: $third;
+    color: $quant;
+}
+
+//*? Hero */ 
+
